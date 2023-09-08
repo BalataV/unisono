@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/src/assets/CZU_logo_logo_barva_negativpng.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styly.css">
+  <title>Diplomová práce - PureHTML</title>
+</head>
+
+<body>
+  <header id="uvodka">
+    <nav>
+      <ul>
+        <a onclick="myFunction()">
+          Skupina
+        </a>
+      </ul>
+      <ul>
+        <a onclick="kalendar()">
+          Kalendář akcí
+        </a>
+      </ul>
+      <ul>
+        <a onclick="repertoar()">
+          Repertoár
+        </a>
+      </ul>
+      <ul>
+        <a href="#">
+          Unisono Acoustic
+        </a>
+      </ul>
+      <ul>
+        <a href="#">
+          Fotogalerie
+        </a>
+      </ul>
+      <ul>
+        <a href="#">
+          Audio a Video
+        </a>
+      </ul>
+    </nav>
+    <div class="nav_mobil">
+      <img id="logo" src="/assets/logo1.png" alt="">
+      <button class="hamburger cross" onclick="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <nav id="mobileMenu" class="visible">
+      <!-- Tady jsou vaše navigační položky -->
+      <ul class="polozka">
+        <a onclick="myFunction()">
+          Skupina
+        </a>
+      </ul>
+      <ul class="polozka">
+        <a onclick="kalendar()">
+          Kalendář akcí
+        </a>
+      </ul>
+      <ul class="polozka">
+        <a onclick="repertoar()">
+          Repertoár
+        </a>
+      </ul>
+      <ul class="polozka">
+        <a href="#">
+          Unisono Acoustic
+        </a>
+      </ul>
+      <ul class="polozka">
+        <a href="#">
+          Fotogalerie
+        </a>
+      </ul>
+      <ul class="polozka">
+        <a href="#">
+          Audio a Video
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <div class="pozadi">
+    <div id="nadpis">
+      <h1 class="nadpis">Skupina Unisono</h1>
+      <h2 class="podnadpis">Nyní pro Vás hrajeme ve složení:</h2>
+    </div>
+    <section id="skupina">
+      <div class="eliska kapelnici">
+        <img src="../assets/skupina/eliska.jpg" alt="">
+        <aside>
+          <p>Zpěv</p>
+          <p>Eliška Průšová</p>
+        </aside>
+      </div>
+      <div class="vladimir kapelnici">
+        <img src="../assets/skupina/vladimir.jpg" alt="">
+        <aside>
+          <p>Basová kytara, zpěv</p>
+          <p>Vladimír Kozák</p>
+        </aside>
+      </div>
+      <div class="martin kapelnici">
+        <aside>
+          <p>Bicí nástroje</p>
+          <p>Martin Pospíšil</p>
+        </aside>
+        <img src="../assets/skupina/martin.jpg" alt="">
+      </div>
+      <div class="petr kapelnici">
+        <aside>
+          <p>Kytara, zpěv</p>
+          <p>Petr Zemánek</p>
+        </aside>
+        <img src="../assets/skupina/petr.jpg" alt="">
+      </div>
+      <div class="karel kapelnici">
+        <img src="../assets/skupina/karel.jpg" alt="">
+        <aside>
+          <p>Klávesy, kapelník</p>
+          <p>Karel Heřmánek</p>
+        </aside>
+      </div>
+      <div class="lubos kapelnici">
+        <img src="../assets/skupina/lubos.jpg" alt="">
+        <aside>
+          <p>B-klarinet, tenor, alt a soprán-saxofon, zpěv</p>
+          <p>Luboš Průša</p>
+        </aside>
+      </div>
+      <div class="tonda kapelnici">
+        <aside>
+          <p>Trumpeta, zpěv</p>
+          <p>Tonda Jandejsek</p>
+        </aside>
+        <img src="../assets/skupina/tonda.jpg" alt="">
+      </div>
+      <div class="pavel kapelnici">
+        <aside>
+          <p>Bicí nástroje, alternativně</p>
+          <p>Pavel Korec</p>
+        </aside>
+        <img src="../assets/skupina/pavel.jpg" alt="">
+      </div>
+    </section>
+    <section class="kalendar">
+      <div>
+        <h1 class="nadpis" id="kalendar">Nadcházející události</h1>
+      </div>
+      <div class="udalosti">
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+        <div class="udalost">
+          <h2>
+            9. 9. 2023
+          </h2>
+          <h2>
+            Soukromá akce
+          </h2>
+          <h2>
+            Svatba
+          </h2>
+          <h2>
+            Dolní Kralovice
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="repertoar">
+      <h1 class="nadpis" id="repertoar">
+        Repertoár
+      </h1>
+      <h2 class="repertoar_text">V našem repertoáru naleznete vše od tanečních rytmů a evergreenů přes lidové melodie až
+        po současné i
+        nestárnoucí hity české i světové hudební scény.</h2>
+      <div class="repertoar_grid">
+        <div>
+          <ul class="repertoar_ul">
+            <li>The Way to You Heart - Soulsister </li>
+            <li>Sedmkrát - Black Milk</li>
+            <li>Pretty Woman - Karel Gott</li>
+            <li>I Want to Break Free - Queen</li>
+            <li>Pískovec - Lucie Bílá</li>
+            <li>V blbym věku - Xindl X</li>
+            <li>Když muž se ženou snídá - Karel Gott</li>
+            <li>Pomáda - MIX</li>
+            <li>Wonderfull Tonight - Eric Clapton</li>
+            <li>To máme mládež - Petra Janů, Věra Špinarová</li>
+            <li>Jedeme dál - Petr Janda a Petra Janů</li>
+            <li>Nothing Compares 2U - Sinéad O´Connor</li>
+            <li>Dlouhá noc – Helena Vondráčková</li>
+            <li>Whats up – 4 Non Blondes</li>
+            <li>Every breath you take - The Police</li>
+            <li>Does your mother know - ABBA</li>
+            <li>The Heat is on – Glenn Frey</li>
+            <li>If it Makes You Happy – Sheryl Crow</li>
+            <li>Hallelujah - Alexandra Burke / Leonard Cohen</li>
+            <li>Voda živá – Aneta Langerová</li>
+            <li>Simply the best – Tina Turner</li>
+            <li>Žádný party – Lucie Bílá</li>
+            <li>Honey, Honey - ABBA</li>
+            <li>Pokoj v duši – Jana Kirschner</li>
+            <li>Everything I do - Bryan Adams</li>
+            <li>If I Could Turn Back Time - Cher</li>
+          </ul>
+        </div>
+        <div class="cerna">
+        <ul class="repertoar_ul">
+          <li>Modrá - Jana Kirschner</li>
+          <li>Walking On Sunshine - Katrina And The Waves</li>
+          <li>Bára - Kabát</li>
+          <li>Vyznání - Petr Kolář</li>
+          <li>Škola – Sto zvířat</li>
+          <li>Nejkratší cesta - Sto zvířat</li>
+          <li>Nikdy nic nebylo - Sto zvířat</li>
+          <li>Trezor – Karel Gott</li>
+          <li>Šrouby a matice – Mandrage</li>
+          <li>Hot Stuff - Donna Summer</li>
+          <li>Sugar Sugar - The Archies </li>
+          <li>Billy Jean - Michael Jackson</li>
+          <li>Heaven - Bryan Adams </li>
+          <li>Careless Whisper - George Michael</li>
+          <li>Always Remember Us This Way - Lady Gaga</li>
+          <li>Hot N Cold - Katty Perry</li>
+          <li>It´s not Unusual - Tom Jones</li>
+          <li>Sex Bomb - Tom Jones</li>
+          <li>Crazy little Thing Called Love - Queen</li>
+          <li>I´m a Believer - The Monkees</li>
+          <li>One More Night - Phil Collins</li>
+          <li>Rome Wasnt Bult In a Day - Morcheeba</li>
+          <li>Can´t help feeling in love - Elvis Presley</li>
+          <li>Shake It Off - Vintage Motown Taylor Swift Cover ft. Von Smith</li>
+          <li>Dobré ráno, milá  - D. Stypka, E. Farná</li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  </div>
+  <button id="scrollToTop" onclick="scrollToTop()">
+    ↑ <!-- Symbol šipky nahoru -->
+  </button>
+  <script src="/main.js"></script>
+</body>
+
+</html>
