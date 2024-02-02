@@ -86,7 +86,7 @@ h1 {
 section div img {
   max-width: 25vw;
   height: 100%;
-  border-radius: 40%;
+  border-radius: 50%;
 }
 
 .kapelnici {
@@ -255,8 +255,8 @@ aside p {
   }
 
   #mobileMenu{
-    padding-top: 5rem;
-    row-gap: 2rem;
+    padding-top: 1rem;
+    row-gap: 1rem;
     font-weight: bold;
     transition: transform 5s ease-in-out;
   }
@@ -318,16 +318,29 @@ li{
 }
 
 .udalosti{
-  display: grid;
-  width: 75%;
-  margin: auto;
+  max-width: var(--css_wrapper_max_width);
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
 }
 
 .udalost{
-  display: flex;
-  justify-content: space-around;
-  text-transform: uppercase;
-  color: blanchedalmond;
+  text-align: left;
+    position: relative;
+    padding: 25px 10px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999;
+}
+.udalosti .udalost div{
+  position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 200px;
+    pointer-events: none;
+    text-transform: uppercase;
 }
 
 .repertoar{
